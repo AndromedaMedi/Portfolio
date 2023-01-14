@@ -12,7 +12,7 @@ const Contact = () => {
             <section className='icons'>
                 <span className='icon'><GrLinkedin size={50}/></span>
                 <a href='https://github.com/AndromedaMedi?tab=repositories'>
-                <span className='icon'><GoMarkGithub size={50}/></span>
+                <span className='icon2'><GoMarkGithub size={50}/></span>
                 </a>
             </section>
 
