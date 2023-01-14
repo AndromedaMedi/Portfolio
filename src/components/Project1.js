@@ -14,7 +14,7 @@ const Project1 = () => {
             <h3 className='project-type'>Python  |  Flask  |  PSQL  |  CSS</h3>
             <h5>Completed in 7 days</h5>
             
-            <span className='icon'><FaGithubSquare size={50}/><a className='link' href="https://github.com/AndromedaMedi/week_5_solo_project.git"></a></span>
+            <span className='icon'><FaGithubSquare size={50}/><a className='link' href="https://github.com/AndromedaMedi/solo_project.git"></a></span>
         
         </div>
     )
