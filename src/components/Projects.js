@@ -13,15 +13,15 @@ const Projects = () => {
                 <ul>
                     <li className='projects-list-item'>
                         <h2><Link className='title' to="/project1">Travel Bucket List</Link></h2>
-                        <p className='-list-type'>Solo Project</p>
+                        <p className='type2'>Solo Project</p>
                     </li>
                     <li className='projects-list-item'>
                         <h2><Link className='title' to="/project2">Unknown</Link></h2>
-                        <p className='list-type'>Group Project</p>
+                        <p className='type2'>Group Project</p>
                     </li>
                     <li className='projects-list-item'>
                         <h2><Link className='title' to="/project3">Unknown</Link></h2>
-                        <p className='list-type'>Unknown</p>
+                        <p className='type2'>Unknown</p>
                     </li>
                 </ul>
             </div>
