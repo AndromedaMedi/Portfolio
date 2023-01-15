@@ -11,7 +11,7 @@ const Home = () => {
         <div className='home-page'>
             <h1>Andromeda Akoulli</h1>
             <h3>Welcome to my portfolio</h3>
-            <img src={profilePic} alt='profile-pic' onError={onImageError}/>
+            <img className='pic' src={profilePic} alt='profile-pic' onError={onImageError}/>
         </div>
     );
 

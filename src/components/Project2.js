@@ -8,7 +8,7 @@ const Project2 = () => {
             <h2>Unknown</h2>
             <hr></hr>
 
-            <h3>Group Project</h3>
+            <h3 className='type'>Group Project</h3>
             <h3 className='project-type'>React  |  JavaScript  |  CSS</h3>
             <h5>Completed in 7 days</h5>
 

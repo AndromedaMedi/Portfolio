@@ -1,9 +1,13 @@
 .App {
   text-align: center;
   font-family: 'Tech Zone Demo';
+  background: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 13rem;
 }
 
-img {
+.pic {
   border-radius: 50%;
 }
 
@@ -24,16 +28,27 @@ li {
 .nav-bar {
   display: flex;
   justify-content: space-around;
-  background-color: teal;
+  background-color: #00808095;
   padding: 2rem;
   margin: 0;
 }
 
-h3 {
-  /* font-style: italic; */
-  color: teal;
+h1 {
+  color:#ce517a;
 }
 
+h2 {
+  color:#ce517a;
+}
+
+h3 {
+  color:#ce517a;
+  font-weight: bolder;
+}
+
+.type2 {
+  color: black;
+}
 
 .title {
   text-decoration: none;
@@ -48,19 +63,17 @@ h3 {
   align-items: center;
 }
 
-/* .projects-page {
-
-}
 
 .project-page {
+  text-align: left;
+  margin: 5%;
+} 
 
-} */
-
-.project-type {
-  color: black;
-  font-style: normal;
-  text-decoration: none;
-}
+section {
+  margin-right:auto;
+  width: 700px;
+  color: teal;
+}  
 
 a {
   color: teal;
@@ -71,33 +84,73 @@ a:hover {
 }
 
 .icons {
-  color: teal;
+  color: #ce517a95;
   display: flex;
   justify-content: center;
   gap: 10rem;
+  padding-top: 2rem;
+
+}
+
+span {
+  color:  #ce517a;
 }
 
 .icon:hover {
-  color: black;
+  color: #00808095;
 }
 
-.icon:hover {
-  color: black;
+.contact-page {
+  padding-bottom: 11rem;
 }
-
-
 
 .contact-msg {
   padding-top: 5rem;
   padding-bottom: 3rem;
   font-style: normal;
   color: black;
+  background-color: #ce517a90;
 }
+
+
+.icon2 {
+  color: #ce517a;
+}
+
+.icon2:hover {
+  color: teal;
+}
+
+
 
 .projects-list-item {
   padding: 1rem;
+  background-color:#ce517a90;
+  margin-right: 27.5rem;
+  margin-left: 22rem;
 }
 
+
 .page-title {
-  padding-left: 2rem;
+  align-items: center;
+  color: #ce517a;
+  padding-right: 3rem;
+}
+
+.line {
+  color: teal;
+  
+}
+
+.project-type {
+  color: teal;
+}
+
+.type {
+  color: teal
+}
+
+.project-pic {
+  width: 1300px;
+  height: 800px;
 }
