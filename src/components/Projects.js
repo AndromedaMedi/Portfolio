@@ -12,11 +12,11 @@ const Projects = () => {
             <div className='projects-list'>
                 <ul>
                     <li className='projects-list-item'>
-                        <h2><Link className='title' to="/project1">Travel Bucket List</Link></h2>
+                        <h2><Link className='title' to="/project1">Travel Bucket List - Travel Tracking App</Link></h2>
                         <p className='type2'>Solo Project</p>
                     </li>
                     <li className='projects-list-item'>
-                        <h2><Link className='title' to="/project2">Unknown</Link></h2>
+                        <h2><Link className='title' to="/project2">Unread - Book Tracking App</Link></h2>
                         <p className='type2'>Group Project</p>
                     </li>
                     <li className='projects-list-item'>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaGithubSquare} from 'react-icons/fa';
-import project1 from '../1_home_page.png';
+import project1 from '../project_images/project_1/1_home_page.png';
 
 const Project1 = () => {
 
@@ -19,9 +19,11 @@ const Project1 = () => {
                 <span className='icon2'><FaGithubSquare size={50}/></span>
             </a>
             <paragraph className='paragraph'>
-                <section>The app allows the user to track countries and cities they want to visit and those they have visited
-                and add them to their bucket list. The user is able to create and edit entried for countries and cities,
-                as well as mark destinations as visited or still to see or simply delete.</section>
+                <section>
+                    The app allows the user to track countries and cities they want to visit and those they have visited
+                    and add them to their bucket list. The user is able to create and edit entried for countries and cities,
+                    as well as mark destinations as visited or still to see or simply delete.
+                </section>
             </paragraph>
             <img className='project-pic' src={project1} alt='project-pic'/>
         

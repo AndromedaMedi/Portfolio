@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Tech Zone Demo';
+  font-size:large;
   background: url('./background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,6 +36,8 @@ li {
 
 h1 {
   color:#ce517a;
+  font-family: 'Fall in love';
+  font-size: 5rem;
 }
 
 h2 {
@@ -136,5 +139,5 @@ span {
 
 .project-pic {
   width: 1300px;
-  height: 800px;
+  height: 700px;
 }
