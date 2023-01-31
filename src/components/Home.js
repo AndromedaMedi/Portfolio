@@ -1,6 +1,7 @@
 import React from 'react';
 import profilePic from '../profile_pic.png';
 
+
 const Home = () => {
 
     const onImageError = (e) => {
