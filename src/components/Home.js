@@ -10,8 +10,11 @@ const Home = () => {
 
     return (
         <div className='home-page'>
-            <h1>Andromeda Akoulli</h1>
-            <h3>Welcome to my portfolio</h3>
+            <div className='name-title'>
+                <h1>Andromeda Akoulli</h1>
+                <h2>Software Developer</h2>
+                <h2 className='welcome'>Welcome to my portfolio</h2>
+            </div>
             <img className='pic' src={profilePic} alt='profile-pic' onError={onImageError}/>
         </div>
     );

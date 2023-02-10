@@ -7,6 +7,7 @@ import Project2 from '../components/Project2';
 import Project3 from '../components/Project3';
 import Contact from '../components/Contact';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 
 const Portfolio = () => {
@@ -31,6 +32,7 @@ const Portfolio = () => {
                 <Route path="/project2" element={ <Project2/> } />
                 <Route path="/project3" element={ <Project3/> } />
             </Routes>
+            <Footer/>
         </Router>
         </>
     );
