@@ -41,6 +41,9 @@ const Projects = () => {
 
                     <li className='projects-list-item'>
                         <div className='project'>
+                            <div className='project-video'>
+                                <img className='project-pic' src={project2} alt='project-pic'/>
+                            </div>
                             <div className='project-details'>
                                 <h2>Unread - Book Tracking App</h2>
                                 <hr></hr>
@@ -59,29 +62,29 @@ const Projects = () => {
                                     </section>
                                 </paragraph>
                             </div>
-                            <div className='project-video'>
-                                <img className='project-pic' src={project2} alt='project-pic'/>
-                            </div>
                         </div>
                     </li>
                     <li className='projects-list-item'>
                         <div className='project'>
-                            <h2>Unknown</h2>
-                            <hr></hr>
-                            <h3 className='type'>Unknown Project</h3>
-                            <h3 className='project-type'>React  |  JavaScript  |  MongoDB | API | CSS</h3>
-                            <h5>Completed in 14 days</h5>
+                            <div className='project-details'>
+                                <h2>Unknown</h2>
+                                <hr></hr>
+                                <h3 className='type'>Unknown Project</h3>
+                                <h3 className='project-type'>React  |  JavaScript  |  MongoDB | API | CSS</h3>
+                                <h5>Completed in 14 days</h5>
 
-                            <a className='link' href="https://github.com/AndromedaMedi/Unread.git">
-                                <span className='icon'><FaGithubSquare size={50}/></span>
-                            </a>
-                            <paragraph className='paragraph'>
-                                <section>
-                                </section>
-                            </paragraph>
-                        </div>
-                        <div className='project-video'>
-                        </div>
+                                <a className='link' href="https://github.com/AndromedaMedi/Unread.git">
+                                    <span className='icon'><FaGithubSquare size={50}/></span>
+                                </a>
+                                <paragraph className='paragraph'>
+                                    <section>
+                                    </section>
+                                </paragraph>
+                            </div>
+                            <div className='project-video'>
+                                <p>video</p>
+                            </div>
+                        </div>    
                     </li>
                 </ul>
             </div>

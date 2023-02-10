@@ -100,10 +100,10 @@ h2 {
 
 /* PROJECTS PAGE */
 
-.project-page {
+/* .project-page {
   text-align: left;
   margin: 5%;
-}
+} */
 
 .page-title {
   place-items: center;
@@ -114,7 +114,7 @@ h2 {
 .project {
   background: #FFBD6699;
   padding: 3rem;
-  margin-right: 3rem;
+  margin-right: 2rem;
   display: flex;
   justify-content: space-between;
   align-content: space-between;
@@ -129,9 +129,10 @@ h2 {
 }
 
 .project-pic {
-  width: 40%;
+  width: 600px;
   height: 50%;
   padding-top: 8rem;
+
 }
 
 h3 {
@@ -181,6 +182,20 @@ section {
   font-style: normal;
   color: #414b3b;  
   background: #FFBD66;
+}
+
+
+.vertical-line{
+  width: 2px; /* Line width */
+  background-color: black; /* Line color */
+  height: 50%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
+
+hr {
+  color: #414b3b;
 }
 
 
