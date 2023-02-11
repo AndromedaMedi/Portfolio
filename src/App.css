@@ -109,12 +109,17 @@ h2 {
   place-items: center;
   color: #414b3b;
   margin-left: 38rem;
+  display: flex;
+  justify-content: center;
 }
 
 .project {
   background: #FFBD6699;
   padding: 3rem;
-  margin-right: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
   display: flex;
   justify-content: space-between;
   align-content: space-between;
@@ -126,12 +131,13 @@ h2 {
   width: 40%;
   height: 10%;
   margin-right: 2rem;
+
 }
 
 .project-pic {
-  width: 600px;
+  width: 550px;
   height: 50%;
-  padding-top: 8rem;
+  padding-top: 4rem;
 
 }
 
@@ -153,7 +159,7 @@ a:hover {
 }
 
 section {
-  width: 600px;
+  width: 550;
   color: #414b3b;
 } 
 

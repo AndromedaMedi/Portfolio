@@ -2,6 +2,7 @@ import React from 'react';
 import {FaGithubSquare} from 'react-icons/fa';
 import project1 from '../project_images/project_1/1_home_page.png';
 import project2 from '../project_images/project_2/discover_page.png';
+import video2 from '../unread-recording.mp4';
 
 
 const Projects = () => {
@@ -27,9 +28,11 @@ const Projects = () => {
                                 </a>
                                 <paragraph className='paragraph'>
                                     <section>
-                                        The app allows the user to track countries and cities they want to visit and those they have visited
-                                        and add them to their bucket list. The user is able to create and edit entried for countries and cities,
-                                        as well as mark destinations as visited or still to see or simply delete.
+                                    Travel Bucket List is a travel tracking CRUD app that allows the user 
+                                    to manage the countries and cities they have visited and wish to visit, 
+                                    using RESTful routes, a PostgreSQL database and Python(Flask). This was 
+                                    my first solo project, created on week 5 of the Software development 
+                                    course at CodeClan. 
                                     </section>
                                 </paragraph>
                             </div>
@@ -42,7 +45,7 @@ const Projects = () => {
                     <li className='projects-list-item'>
                         <div className='project'>
                             <div className='project-video'>
-                                <img className='project-pic' src={project2} alt='project-pic'/>
+                                <video className='project-pic' src={video2}controls="controls" autoplay="true" alt='video-demo'/>
                             </div>
                             <div className='project-details'>
                                 <h2>Unread - Book Tracking App</h2>
@@ -56,9 +59,11 @@ const Projects = () => {
                                 </a>
                                 <paragraph className='paragraph'>
                                     <section>
-                                        Unread is a book tracking app created for the CodeClan Javascript group project 
-                                        in week 9 of the Professional Software Development course. It allows multiple users 
-                                        to track the books they read or wish to read, using the OpenLibrary API.
+                                    Unread is a book tracking app that allows multiple users to track the books 
+                                    they read or wish to read, using the OpenLibrary API. The web app was built 
+                                    utilizing React on the front end which connects to the API that communicates 
+                                    with NoSQL database MongoDB at the backend. As a group-project, Unread was a 
+                                    great opportunity to collaborate and practice Scrum methodologies.
                                     </section>
                                 </paragraph>
                             </div>
