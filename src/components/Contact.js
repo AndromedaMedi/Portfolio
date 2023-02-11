@@ -9,7 +9,7 @@ const Contact = () => {
 
         <div className='contact-page'>
 
-            <h3 className='contact-msg'>Please Follow the Below Links to Contact Me or View More of My Work</h3>
+            <h3 className='contact-msg'>Please Follow the Links Below to Contact Me or View More of My Work</h3>
             <div className='icons'>
                 <span className='icon'><BsLinkedin size={50}/></span>
                 <a href='https://github.com/AndromedaMedi?tab=repositories'>
