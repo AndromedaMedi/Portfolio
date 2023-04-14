@@ -1,7 +1,6 @@
 import React from 'react';
 import {FaGithubSquare} from 'react-icons/fa';
 import project1 from '../project_images/project_1/1_home_page.png';
-import project2 from '../project_images/project_2/discover_page.png';
 import video2 from '../unread-recording.mp4';
 
 
@@ -18,12 +17,11 @@ const Projects = () => {
                         <div className='project'>
                             <div className='project-details'>
                                 <h2>Travel Bucket List</h2>
-                                <hr></hr>
-                                <h3 className='type'>Solo Project</h3>
-                                <h3 className='project-type'>Python  |  Flask  |  PSQL  |  CSS</h3>
+                                <h4 className='project-type'>Python  |  Flask  |  PSQL  |  CSS</h4>
+                                <h5 className='type'>Solo Project</h5>
                                 <h5>Completed in 7 days</h5>
 
-                                <a href="https://github.com/AndromedaMedi/week_5_solo_project.git">
+                                <a href="https://github.com/AndromedaMedi/Travel-Bucket-List">
                                     <span className='icon'><FaGithubSquare size={50}/></span>
                                 </a>
                                 <paragraph className='paragraph'>
@@ -45,16 +43,15 @@ const Projects = () => {
                     <li className='projects-list-item'>
                         <div className='project'>
                             <div className='project-video'>
-                                <video className='project-pic' src={video2}controls="controls" autoplay="true" alt='video-demo'/>
+                                <video className='project-pic' src={video2} controls="controls" autoplay="true" alt='video-demo'/>
                             </div>
                             <div className='project-details'>
                                 <h2>Unread - Book Tracking App</h2>
-                                <hr></hr>
-                                <h3 className='type'>Group Project</h3>
-                                <h3 className='project-type'>React  |  JavaScript  |  MongoDB | API | CSS</h3>
+                                <h4 className='project-type'>React  |  JavaScript  |  MongoDB | API | CSS</h4>
+                                <h5 className='type'>Group Project</h5>
                                 <h5>Completed in 7 days</h5>
 
-                                <a className='link' href="https://github.com/AndromedaMedi/Unread.git">
+                                <a className='link' href="https://github.com/AndromedaMedi/Unread">
                                     <span className='icon'><FaGithubSquare size={50}/></span>
                                 </a>
                                 <paragraph className='paragraph'>
@@ -69,20 +66,25 @@ const Projects = () => {
                             </div>
                         </div>
                     </li>
+
                     <li className='projects-list-item'>
                         <div className='project'>
                             <div className='project-details'>
-                                <h2>Unknown</h2>
-                                <hr></hr>
-                                <h3 className='type'>Unknown Project</h3>
-                                <h3 className='project-type'>React  |  JavaScript  |  MongoDB | API | CSS</h3>
+                                <h2>RISE - Budget App</h2>
+                                <h3 className='project-type'>Java  |  Spring  |  React | JS | TS | SQL | RestAPI | CSS</h3>
+                                <h5 className='type'>Group Project</h5>
                                 <h5>Completed in 14 days</h5>
 
-                                <a className='link' href="https://github.com/AndromedaMedi/Unread.git">
+                                <a className='link' href="https://github.com/AndromedaMedi/Rise">
                                     <span className='icon'><FaGithubSquare size={50}/></span>
                                 </a>
                                 <paragraph className='paragraph'>
                                     <section>
+                                    RISE is a personal budgeting app that allows the user to track their expenses, 
+                                    create savings pots and get advice on some financial aspects. The web app was 
+                                    built utilizing React Express on the front end written in JS and TS, connecting 
+                                    to the back end written in Java, employing a Spring Boot framework, communicating 
+                                    with SQL database.
                                     </section>
                                 </paragraph>
                             </div>

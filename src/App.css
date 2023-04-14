@@ -18,7 +18,10 @@ html {
 
 .nav-bar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  /* margin-left: 3rem;
+  margin-right: 3rem; */
   margin-top: 1rem;
   background: white;
   padding-bottom: 0.5rem;
@@ -49,9 +52,10 @@ li {
 
 .home-page {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding-left: 8rem;
-  padding-right: 10rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background: #FFBD66;
@@ -60,12 +64,17 @@ li {
 .pic {
   border-radius: 50%;
   size: 50px;
+  flex: 0 0 50px;
 }
 
 .name-title {
-  align-items: baseline;
+  flex-wrap: wrap;
   color: #414b3b;
 }
+
+/* .title {
+  line-height: 10px;
+} */
 
 h1 {
   color: #414b3b;
@@ -82,7 +91,19 @@ h2 {
   font-family: 'SignPainter';
   padding: 1rem;
   margin-right: 3rem;
+  /* margin-top: 9rem; */
 }
+
+.vertical-line{
+  width: 2px; /* Line width */
+  background-color: #414b3b; /* Line color */
+  height: 96%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
+
+
 
 /* FOOTER */
 
@@ -90,7 +111,7 @@ h2 {
   color: #414b3b;
   align-content: center;
   background: white;
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-around;
   background: white;
@@ -108,13 +129,13 @@ h2 {
 .page-title {
   place-items: center;
   color: #414b3b;
-  margin-left: 38rem;
+  /* margin-left: 38rem; */
   display: flex;
   justify-content: center;
 }
 
 .project {
-  background: #FFBD6699;
+  background: #FFBD66;
   padding: 3rem;
   margin-right: 5rem;
   margin-bottom: 5rem;
@@ -137,11 +158,17 @@ h2 {
 .project-pic {
   width: 550px;
   height: 50%;
-  padding-top: 4rem;
-
+  /* padding-top: 4rem; */
+  background-color: white;
+  padding: 2rem;
 }
 
 h3 {
+  font-weight: bolder;
+  color: #414b3b;
+}
+
+h4 {
   font-weight: bolder;
   color: #414b3b;
 }
@@ -171,11 +198,11 @@ section {
 }
 
 .icon {
-  color: #FFBD66;
+  color: #414b3b;
 }
 
 .icon:hover {
-  color: #414b3b;
+  color: white;
 }
 
 
@@ -190,18 +217,10 @@ section {
   background: #FFBD66;
 }
 
-
-.vertical-line{
-  width: 2px; /* Line width */
-  background-color: black; /* Line color */
-  height: 50%; /* Override in-line if you want specific height. */
-  float: left; /* Causes the line to float to left of content. 
-    You can instead use position:absolute or display:inline-block
-    if this fits better with your design */
+.icon2 {
+  color: #FFBD66;
 }
 
-hr {
+.icon2:hover {
   color: #414b3b;
 }
-
-
