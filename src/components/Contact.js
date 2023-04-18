@@ -11,12 +11,14 @@ const Contact = () => {
 
             <h3 className='contact-msg'>Please Follow the Links Below to Contact Me or View More of My Work</h3>
             <div className='icons'>
-                <span className='icon'><BsLinkedin size={50}/></span>
+                <a href='https://www.linkedin.com/in/andromeda-akoulli'>
+                <span className='icon2'><BsLinkedin size={50}/></span>
+                </a>
                 <a href='https://github.com/AndromedaMedi?tab=repositories'>
-                <span className='icon'><FaGithubSquare size={55}/></span>
+                <span className='icon2'><FaGithubSquare size={55}/></span>
                 </a>
             </div>
-
+            
         </div>
     );
 
