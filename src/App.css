@@ -4,7 +4,7 @@ html {
 
 .App {
   font-family: 'Quattrocento';
-  font-size:x-large;
+  font-size: x-large;
 }
 
 /* NAV BARR */
@@ -72,9 +72,14 @@ li {
   color: #414b3b;
 }
 
-/* .title {
-  line-height: 10px;
-} */
+.name-title-detail {
+  line-height: 2rem;
+  padding-left: 4rem;
+}
+
+.name {
+  font-size: 30;
+}
 
 h1 {
   color: #414b3b;
@@ -86,18 +91,24 @@ h2 {
   font-weight: lighter;
 }
 
-.welcome {
+.welcome-msg {
   background-color: white;
   font-family: 'SignPainter';
+  padding-left: 5rem;
   padding: 1rem;
-  margin-right: 3rem;
-  /* margin-top: 9rem; */
+  align-items: center;
+}
+
+.welcome {
+  /* margin-right: 3rem; */
+  margin-top: 4rem;
+
 }
 
 .vertical-line{
   width: 2px; /* Line width */
   background-color: #414b3b; /* Line color */
-  height: 96%; /* Override in-line if you want specific height. */
+  height: 100%; /* Override in-line if you want specific height. */
   float: left; /* Causes the line to float to left of content. 
     You can instead use position:absolute or display:inline-block
     if this fits better with your design */
