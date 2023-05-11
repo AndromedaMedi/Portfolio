@@ -223,12 +223,13 @@ section {
 /* CONTACT PAGE */
 
 .contact-msg {
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
-  padding-left: 17rem;
   font-style: normal;
   color: #414b3b;  
   background: #FFBD66;
+  display: flex;
+  justify-content: center;
 }
 
 .icon2 {
@@ -237,4 +238,13 @@ section {
 
 .icon2:hover {
   color: #414b3b;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  color: #414b3b;
+  align-items: center;
+  padding-top: 2rem;
 }
