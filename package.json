@@ -16,11 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "[react-scripts build] build --output public",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "[my-framework] build --output public"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
