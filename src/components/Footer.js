@@ -3,8 +3,9 @@ import React from 'react';
 const Footer = () => {
 
     return (
-
-        <p className='footer'>Andromeda Akoulli © 2023</p>
+        <div className='footer'>
+            <p>Andromeda Akoulli © 2023</p>
+        </div>
     );
 };
 

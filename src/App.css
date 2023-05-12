@@ -95,9 +95,8 @@ h2 {
 }
 
 .welcome-msg {
-  background-color: white;
   font-family: 'SignPainter';
-  padding-left: 5rem;
+  margin-left: 3rem;
   padding: 1rem;
   align-items: center;
 }
@@ -105,7 +104,7 @@ h2 {
 .welcome {
   /* margin-right: 3rem; */
   margin-top: 4rem;
-
+  background-color: white;
 }
 
 .vertical-line{
@@ -122,28 +121,25 @@ h2 {
 /* FOOTER */
 
 .footer {
+  background: white;
   color: #414b3b;
-  align-content: center;
-  background: white;
-  margin-top: 5rem;
-  display: flex;
-  justify-content: space-around;
-  background: white;
   font-size: small;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  position: sticky;
+  margin-top: auto;
 }
 
 
 /* PROJECTS PAGE */
 
-/* .project-page {
-  text-align: left;
-  margin: 5%;
-} */
+
 
 .page-title {
   place-items: center;
   color: #414b3b;
-  /* margin-left: 38rem; */
   display: flex;
   justify-content: center;
 }
