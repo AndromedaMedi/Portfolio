@@ -8,6 +8,7 @@ import Project3 from '../components/Project3';
 import Contact from '../components/Contact';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import About from '../components/About';
 
 
 const Portfolio = () => {
@@ -26,6 +27,7 @@ const Portfolio = () => {
             <Routes>
                 <Route path="/portfolio" element={ <Home/> } />
                 <Route path="/" element={ <Home/> } />
+                <Route path="/about" element={ <About/> } />
                 <Route path="/projects" element={ <Projects projects={projects}/> } />
                 <Route path="/contact" element={ <Contact/> } />
                 <Route path="/project1" element={ <Project1/> } />
